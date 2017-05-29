@@ -1,0 +1,29 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>KeyDown 264 1
+Delay 64 ms
+KeyUp 264 1
+Delay 64 ms
+Delay 500 ms
+KeyDown 44 1
+Delay 64 ms
+KeyUp 44 1
+Delay 500 ms
+KeyDown 6 1
+Delay 64 ms
+KeyUp 6 1
+Delay 64 ms</Syntax>
+		</KeyDown>
+		<Software>Loadout
+</Software></DefaultMacro>
+</Root>

@@ -1,0 +1,30 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>KeyDown 32 1
+Delay 5 ms
+KeyUp 32 1
+Delay 5 ms
+LeftDown 1
+Delay 250 ms
+Delay 250 ms
+Delay 500 ms
+LeftUp 1
+Delay 5 ms
+KeyDown 20 1
+Delay 5 ms
+KeyUp 20 1
+Delay 5 ms</Syntax>
+		</KeyDown>
+		<Software>Team Fortress 2
+</Software></DefaultMacro>
+</Root>

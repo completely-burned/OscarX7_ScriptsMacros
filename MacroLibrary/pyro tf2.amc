@@ -1,0 +1,24 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>LeftDown 1
+Delay 250 ms
+RightDown 1
+Delay 500 ms
+RightUp 1
+Delay 500 ms
+IfKey 7 1 2
+LeftUp 1</Syntax>
+		</KeyDown>
+		<Software>Team Fortress 2
+</Software></DefaultMacro>
+</Root>
