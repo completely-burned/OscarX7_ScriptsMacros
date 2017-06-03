@@ -11,12 +11,11 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>LeftDown 1
-Delay 40 ms
+Delay 10 ms
 LeftUp 1
-Delay 40 ms
-Delay 40 ms
+Delay 130 ms
 IfKey 7 1 1</Syntax>
 		</KeyDown>
-		<Software>Warface 29.05.2017
+		<Software>Warface 03.06.2017
 </Software></DefaultMacro>
 </Root>
