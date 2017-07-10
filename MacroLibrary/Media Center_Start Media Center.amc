@@ -1,8 +1,10 @@
-<Root>
+﻿<Root>
 	<DefaultMacro>
 		<Major></Major>
-		<Description></Description>
-		<Comment></Comment>
+		<Description>Start Media Center
+</Description>
+		<Comment>Start Media Center
+</Comment>
 		<GUIOption>
 			<RepeatType>0</RepeatType>
 		</GUIOption>
@@ -17,14 +19,15 @@
 //1. Insert functions from top and left panels.
 //2. Record both mouse and keyboard movements using record button.
 //3. Input with either keyboard panel below or your actual keyboard.
-LeftDown 1
-Delay 16 ms
-LeftUp 1
-Delay 16 ms
-LeftDown 1
-Delay 16 ms
-LeftUp 1
-Delay 16 ms</Syntax>
+KeyDown 267 1
+KeyDown 266 1
+KeyDown 40 1
+Delay 64 ms
+KeyUp 40 1
+Delay 64 ms
+KeyUp 266 1
+KeyUp 267 1</Syntax>
 		</KeyDown>
-	</DefaultMacro>
+		<Software>Windows Media Center
+</Software></DefaultMacro>
 </Root>

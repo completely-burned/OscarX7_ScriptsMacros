@@ -1,10 +1,10 @@
 <Root>
 	<DefaultMacro>
 		<Major></Major>
-		<Description>One click to fire 4 sequential bullets instantly and concentrate on the point of impactsf impacts.
-Applicable Weapon: all guns
+		<Description>Start slide show from the Current Slide
+Exit Slide
 </Description>
-		<Comment>4XFIRE
+		<Comment>From Current Slide or Exit Slide
 </Comment>
 		<GUIOption>
 			<RepeatType>0</RepeatType>
@@ -13,30 +13,27 @@ Applicable Weapon: all guns
 			<Syntax></Syntax>
 		</KeyUp>
 		<KeyDown>
-			<Syntax>
-//   It is your new script below.
+			<Syntax>//   It is your new script below.
 //-------------------
 //there are three ways to create the script.
 //1. Insert functions from top and left panels.
 //2. Record both mouse and keyboard movements using record button.
 //3. Input with either keyboard panel below or your actual keyboard.
-LeftDown 1
+varH = varH + 1
+varH = varH &amp; 1
+if varH == 1 Goto 15
+KeyDown 41 1
 Delay 64 ms
-LeftUp 1
+KeyUp 41 1
 Delay 64 ms
-LeftDown 1
-Delay 70 ms
-LeftUp 1
-Delay 70 ms
-LeftDown 1
-Delay 85 ms
-LeftUp 1
-Delay 85 ms
-LeftDown 1
-Delay 95 ms
-LeftUp 1
-Delay 95 ms</Syntax>
+Goto 19
+KeyDown 265 1
+KeyDown 62 1
+Delay 64 ms
+KeyUp 265 1
+KeyUp 62 1
+Delay 64 ms</Syntax>
 		</KeyDown>
-		<Software>Counter-Strike (CS)
+		<Software>Microsoft Office PowerPoint
 </Software></DefaultMacro>
 </Root>

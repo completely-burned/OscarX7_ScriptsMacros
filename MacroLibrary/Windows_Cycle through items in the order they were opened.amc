@@ -1,8 +1,10 @@
-<Root>
+﻿<Root>
 	<DefaultMacro>
 		<Major></Major>
-		<Description></Description>
-		<Comment></Comment>
+		<Description>Cycle through items in the order they were opened
+</Description>
+		<Comment>Cycle through items in the order they were opened
+</Comment>
 		<GUIOption>
 			<RepeatType>0</RepeatType>
 		</GUIOption>
@@ -17,14 +19,13 @@
 //1. Insert functions from top and left panels.
 //2. Record both mouse and keyboard movements using record button.
 //3. Input with either keyboard panel below or your actual keyboard.
-LeftDown 1
-Delay 16 ms
-LeftUp 1
-Delay 16 ms
-LeftDown 1
-Delay 16 ms
-LeftUp 1
-Delay 16 ms</Syntax>
+KeyDown 266 1
+KeyDown 41 1
+Delay 64 ms
+KeyUp 41 1
+Delay 64 ms
+KeyUp 266 1</Syntax>
 		</KeyDown>
-	</DefaultMacro>
+		<Software>Windows
+</Software></DefaultMacro>
 </Root>

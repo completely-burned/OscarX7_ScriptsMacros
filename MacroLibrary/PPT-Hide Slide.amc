@@ -1,8 +1,11 @@
 <Root>
 	<DefaultMacro>
 		<Major></Major>
-		<Description></Description>
-		<Comment></Comment>
+		<Description>Hide the current slide from the presentation
+It will not be shown during the full-screen slide show
+</Description>
+		<Comment>Hide Slide 
+</Comment>
 		<GUIOption>
 			<RepeatType>0</RepeatType>
 		</GUIOption>
@@ -10,21 +13,19 @@
 			<Syntax></Syntax>
 		</KeyUp>
 		<KeyDown>
-			<Syntax>
-//   It is your new script below.
+			<Syntax>//   It is your new script below.
 //-------------------
 //there are three ways to create the script.
 //1. Insert functions from top and left panels.
 //2. Record both mouse and keyboard movements using record button.
 //3. Input with either keyboard panel below or your actual keyboard.
-LeftDown 1
-Delay 16 ms
-LeftUp 1
-Delay 16 ms
-LeftDown 1
-Delay 16 ms
-LeftUp 1
-Delay 16 ms</Syntax>
+KeyDown 265 1
+KeyDown 5 1
+Delay 64 ms
+KeyUp 5 1
+Delay 64 ms
+KeyUp 265 1</Syntax>
 		</KeyDown>
-	</DefaultMacro>
+		<Software>Microsoft Office PowerPoint
+</Software></DefaultMacro>
 </Root>

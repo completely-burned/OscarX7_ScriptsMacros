@@ -1,8 +1,13 @@
-<Root>
+﻿<Root>
 	<DefaultMacro>
 		<Major></Major>
-		<Description></Description>
-		<Comment></Comment>
+		<Description>One click to fire 3 sequential bullets instantly and concentrate on the point of impactsf impacts.
+Applicable weapons: all guns
+
+
+</Description>
+		<Comment>3XFIRE
+</Comment>
 		<GUIOption>
 			<RepeatType>0</RepeatType>
 		</GUIOption>
@@ -18,13 +23,17 @@
 //2. Record both mouse and keyboard movements using record button.
 //3. Input with either keyboard panel below or your actual keyboard.
 LeftDown 1
-Delay 16 ms
+Delay 64 ms
 LeftUp 1
-Delay 16 ms
+Delay 64 ms
 LeftDown 1
-Delay 16 ms
+Delay 64 ms
 LeftUp 1
-Delay 16 ms</Syntax>
+Delay 64 ms
+LeftDown 1
+Delay 64 ms
+LeftUp 1</Syntax>
 		</KeyDown>
-	</DefaultMacro>
+		<Software>Counter-Strike (CS)
+</Software></DefaultMacro>
 </Root>
