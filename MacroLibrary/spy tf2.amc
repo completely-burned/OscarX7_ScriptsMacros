@@ -11,15 +11,15 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>LeftDown 1
-Delay 10 ms
+Delay 20 ms
 LeftUp 1
-Delay 10 ms
+Delay 20 ms
 KeyDown 33 1
-Delay 10 ms
+Delay 20 ms
 KeyUp 33 1
-Delay 10 ms
+Delay 20 ms
 KeyDown 33 1
-Delay 10 ms
+Delay 20 ms
 KeyUp 33 1</Syntax>
 		</KeyDown>
 		<Software>Team Fortress 2
