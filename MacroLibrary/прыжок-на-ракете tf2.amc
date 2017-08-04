@@ -12,11 +12,11 @@
 		<KeyDown>
 			<Syntax>KeyDown 44 1
 KeyDown 264 1
-Delay 5 ms
-Delay 5 ms
+Delay 20 ms
 LeftDown 1
 KeyUp 44 1
 KeyUp 264 1
+Delay 50 ms
 IfKey 1 1 10
 LeftUp 1</Syntax>
 		</KeyDown>
