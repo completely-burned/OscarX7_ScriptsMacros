@@ -1,0 +1,22 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>30.06.2018
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>LeftDown 1
+Delay 2 ms
+MoveR 0 1
+IfKey 7 1 2
+LeftUp 1</Syntax>
+		</KeyDown>
+		<Software>Day of Defeat
+</Software></DefaultMacro>
+</Root>
