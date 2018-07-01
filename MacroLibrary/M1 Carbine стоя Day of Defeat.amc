@@ -19,6 +19,6 @@ Delay 10 ms
 MoveR 0 3
 IfKey 7 1 1</Syntax>
 		</KeyDown>
-		<Software>Day of Defeat Source
+		<Software>Day of Defeat
 </Software></DefaultMacro>
 </Root>
