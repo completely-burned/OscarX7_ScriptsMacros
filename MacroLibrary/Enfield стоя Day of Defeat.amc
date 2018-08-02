@@ -1,0 +1,64 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>02.08.2018
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>LeftDown 1
+Delay 1 ms
+Delay 4 ms
+LeftUp 1
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 1 ms
+Delay 4 ms
+MoveR 0 8
+Delay 4 ms
+MoveR 0 8
+Delay 320 ms
+Delay 1300 ms
+IfKey 7 1 1</Syntax>
+		</KeyDown>
+		<Software>Day of Defeat
+</Software></DefaultMacro>
+</Root>
