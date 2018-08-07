@@ -11,9 +11,9 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>LeftDown 1
-Delay 10 ms
+Delay 7 ms
 LeftUp 1
-Delay 20 ms
+Delay 7 ms
 IfKey 7 1 1</Syntax>
 		</KeyDown>
 		<Software>all
