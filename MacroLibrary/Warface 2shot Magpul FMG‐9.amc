@@ -1,0 +1,24 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>11.03.2020
+Magpul FMG-9 2shot
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>LeftDown 1
+Delay 40 ms
+Delay 40 ms
+LeftUp 1
+Delay 180 ms
+IfKey 7 1 1</Syntax>
+		</KeyDown>
+		<Software>Warface
+</Software></DefaultMacro>
+</Root>
