@@ -12,7 +12,9 @@ H&amp;K USP, H&amp;K UMP
 			<Syntax></Syntax>
 		</KeyUp>
 		<KeyDown>
-			<Syntax>LeftDown 1
+			<Syntax>KeyDown 30 1
+LeftDown 1
+KeyUp 30 1
 Delay 10 ms
 LeftUp 1
 Delay 10 ms
