@@ -1,0 +1,23 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>M16A3 Custom elite
+13.03.2020
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>LeftDown 1
+Delay 5 ms
+MoveR 0 1
+IfKey 7 1 1
+LeftUp 1</Syntax>
+		</KeyDown>
+		<Software>Warface
+</Software></DefaultMacro>
+</Root>
