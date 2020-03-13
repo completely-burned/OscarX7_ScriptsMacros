@@ -1,0 +1,24 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>Defibrillator
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>KeyDown 18 1
+Delay 10 ms
+LeftDown 1
+Delay 10 ms
+KeyUp 18 1
+LeftUp 1
+IfKey 5 1 1</Syntax>
+		</KeyDown>
+		<Software>Warface
+</Software></DefaultMacro>
+</Root>
