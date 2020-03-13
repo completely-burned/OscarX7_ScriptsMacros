@@ -1,0 +1,27 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>13.03.2020
+sniper 100ms
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>RightDown 1
+Delay 100 ms
+Delay 1 ms
+IfKey 7 1 3
+LeftDown 1
+Delay 64 ms
+LeftUp 1
+Delay 64 ms
+RightUp 1</Syntax>
+		</KeyDown>
+		<Software>Warface
+</Software></DefaultMacro>
+</Root>
