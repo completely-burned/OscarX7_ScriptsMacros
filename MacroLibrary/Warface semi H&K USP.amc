@@ -13,7 +13,7 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>LeftDown 1
-Delay 50 ms
+Delay 60 ms
 LeftUp 1
 Delay 200 ms
 IfKey 7 1 1</Syntax>
