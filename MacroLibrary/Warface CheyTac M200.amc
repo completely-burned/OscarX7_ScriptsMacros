@@ -1,0 +1,26 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>CheyTac M200
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>RightDown 1
+Delay 220 ms
+LeftDown 1
+Delay 50 ms
+LeftUp 1
+Delay 50 ms
+RightUp 1
+Delay 1450 ms
+IfKey 7 1 1</Syntax>
+		</KeyDown>
+		<Software>Warface
+</Software></DefaultMacro>
+</Root>
