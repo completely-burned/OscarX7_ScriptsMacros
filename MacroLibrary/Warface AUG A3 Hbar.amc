@@ -2,7 +2,6 @@
 	<DefaultMacro>
 		<Major></Major>
 		<Description>AUG A3 Hbar
-17.03.2020
 </Description>
 		<Comment></Comment>
 		<GUIOption>
@@ -15,7 +14,7 @@
 			<Syntax>LeftDown 1
 Delay 50 ms
 LeftUp 1
-Delay 75 ms
+Delay 80 ms
 IfKey 7 1 1</Syntax>
 		</KeyDown>
 		<Software>Warface
