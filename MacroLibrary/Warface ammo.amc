@@ -1,0 +1,28 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>ammobox
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>KeyDown 20 1
+Delay 10 ms
+KeyUp 20 1
+LeftDown 1
+Delay 10 ms
+LeftUp 1
+IfKey 5 1 1
+Delay 64 ms
+KeyDown 12 1
+Delay 64 ms
+KeyUp 12 1</Syntax>
+		</KeyDown>
+		<Software>Warface
+</Software></DefaultMacro>
+</Root>
