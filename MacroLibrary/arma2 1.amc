@@ -11,9 +11,9 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>LeftDown 1
-Delay 50 ms
+Delay 100 ms
 LeftUp 1
-Delay 300 ms
+Delay 250 ms
 IfKey 7 1 1</Syntax>
 		</KeyDown>
 		<Software>ArmA 2 OA
