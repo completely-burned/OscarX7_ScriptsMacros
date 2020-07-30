@@ -11,9 +11,9 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>LeftDown 1
-Delay 10 ms
+Delay 100 ms
 LeftUp 1
-Delay 990 ms
+Delay 900 ms
 IfKey 7 1 1</Syntax>
 		</KeyDown>
 		<Software>Team Fortress 2
