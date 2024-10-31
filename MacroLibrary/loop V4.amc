@@ -1,10 +1,7 @@
 <Root>
 	<DefaultMacro>
 		<Major></Major>
-		<Description>
-
-
-</Description>
+		<Description></Description>
 		<Comment></Comment>
 		<GUIOption>
 			<RepeatType>0</RepeatType>
