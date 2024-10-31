@@ -1,0 +1,22 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>loop T
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>KeyDown 23 1
+Delay 10 ms
+KeyUp 23 1
+Delay 240 ms
+IfKey 4 1 1</Syntax>
+		</KeyDown>
+		<Software>arma3
+</Software></DefaultMacro>
+</Root>
