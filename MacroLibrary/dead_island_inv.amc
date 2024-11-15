@@ -1,0 +1,28 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>LeftDown 1
+Delay 64 ms
+LeftUp 1
+Delay 64 ms
+KeyDown 40 1
+Delay 64 ms
+KeyUp 40 1
+Delay 64 ms
+KeyDown 40 1
+Delay 64 ms
+KeyUp 40 1
+Delay 64 ms</Syntax>
+		</KeyDown>
+		<Software>Dead Island Definitive Edition
+</Software></DefaultMacro>
+</Root>
