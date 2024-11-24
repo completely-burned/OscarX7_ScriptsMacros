@@ -8,12 +8,11 @@
 		</KeyUp>
 		<KeyDown>
 			<Syntax>KeyDown 9 1
-KeyDown 8 1
 Delay 10 ms
 KeyUp 9 1
-KeyUp 8 1
 Delay 30 ms
 IfKey 5 1 1</Syntax>
 		</KeyDown>
-	</DefaultMacro>
+		<Major></Major><Software>all
+</Software><Description></Description><Comment></Comment></DefaultMacro>
 </Root>
