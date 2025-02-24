@@ -1,0 +1,24 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description>
+</Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>RightDown 1
+KeyDown 9 1
+Delay 10 ms
+KeyUp 9 1
+Delay 30 ms
+IfKey 2 1 1
+RightUp 1</Syntax>
+		</KeyDown>
+		<Software>all
+</Software></DefaultMacro>
+</Root>
