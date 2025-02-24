@@ -1,0 +1,19 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>WheelUp 1
+Delay 64 ms
+IfKey 4 1 1</Syntax>
+		</KeyDown>
+		<Software>all
+</Software></DefaultMacro>
+</Root>
