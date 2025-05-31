@@ -1,0 +1,28 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>KeyDown 8 1
+Delay 64 ms
+KeyUp 8 1
+Delay 64 ms
+KeyDown 21 1
+Delay 64 ms
+KeyUp 21 1
+IfKey 5 1 1
+KeyDown 21 1
+Delay 64 ms
+KeyUp 21 1
+GoWhile 9 4</Syntax>
+		</KeyDown>
+		<Software>Generation Zero
+</Software></DefaultMacro>
+</Root>
