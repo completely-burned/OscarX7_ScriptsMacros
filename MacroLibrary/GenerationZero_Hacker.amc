@@ -1,0 +1,44 @@
+<Root>
+	<DefaultMacro>
+		<Major></Major>
+		<Description></Description>
+		<Comment></Comment>
+		<GUIOption>
+			<RepeatType>0</RepeatType>
+		</GUIOption>
+		<KeyUp>
+			<Syntax></Syntax>
+		</KeyUp>
+		<KeyDown>
+			<Syntax>RightDown 1
+KeyDown 98 1
+varF = 16
+if varF != 16 Goto 6
+varE = 1
+if varF != 20 Goto 9
+varE = 0
+varF = 1
+varF = varF + 1
+KeyDown 27 1
+KeyDown 8 1
+KeyDown 20 1
+if varE != 1 Goto 15
+KeyDown 87 1
+if varE == 1 Goto 17
+KeyDown 86 1
+Delay 8 ms
+if varE != 1 Goto 20
+KeyUp 87 1
+if varE == 1 Goto 22
+KeyUp 86 1
+KeyUp 27 1
+KeyUp 8 1
+KeyUp 20 1
+Delay 48 ms
+IfKey 2 1 4
+RightUp 1
+KeyUp 98 1</Syntax>
+		</KeyDown>
+		<Software>gz
+</Software></DefaultMacro>
+</Root>
