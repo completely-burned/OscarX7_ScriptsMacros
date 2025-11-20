@@ -10,10 +10,11 @@
 			<Syntax></Syntax>
 		</KeyUp>
 		<KeyDown>
-			<Syntax>KeyDown 8 1
-RightDown 1
+			<Syntax>RightDown 1
 Delay 8 ms
-IfKey 2 1 3
+KeyDown 8 1
+Delay 8 ms
+IfKey 2 1 4
 KeyUp 8 1
 RightUp 1</Syntax>
 		</KeyDown>
