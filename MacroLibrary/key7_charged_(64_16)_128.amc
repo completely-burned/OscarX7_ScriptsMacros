@@ -10,14 +10,14 @@
 			<Syntax></Syntax>
 		</KeyUp>
 		<KeyDown>
-			<Syntax>RightDown 1
-Delay 8 ms
-KeyDown 8 1
-Delay 8 ms
-IfKey 2 1 4
-KeyUp 8 1
-RightUp 1</Syntax>
+			<Syntax>LeftDown 1
+Delay 64 ms
+IfKey 7 0 5
+GoWhile 2 16
+LeftUp 1
+Delay 128 ms
+IfKey 7 1 1</Syntax>
 		</KeyDown>
-		<Software>all,DRG
+		<Software>all
 </Software></DefaultMacro>
 </Root>
